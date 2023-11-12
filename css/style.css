@@ -1,0 +1,57 @@
+:root {
+    --hover:#03A9F4;
+    --nav: #7D7D7D;
+    --caption: #B4AD9E;
+    --text: #626262   ;
+}
+body {
+    font-family:  "Playfair Display", serif  ;
+    font-size: 14 px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 400;
+    color:var(--text);
+    
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+
+.header-link:hover {
+     
+    color:var(--hover);
+}
+.header-link {
+
+    
+     color:var(--nav) ;
+    
+}
+.Galery-h {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    
+  color:var(--caption);;
+}
+ .Galery-h2 {
+     
+     
+     font-weight: 400;
+     font-size: 30 px;
+ }
+ 
+ 
+ .button {
+     font-family: "Playfair Display", serif; 
+     color:var(--text)
+     font-weight: 400;
+     line-height: normal;
+
+     width: 165px;
+height: 60px;
+ background-color: transparent;
+ border: 1px solid var(--text);
+ }
