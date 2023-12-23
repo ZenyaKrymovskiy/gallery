@@ -20,6 +20,31 @@ ul {
     list-style-type: none;
 }
 
+ul, h2,  button {
+    padding: 0;
+    margin: 0;
+}
+img, button {
+display: block;
+}
+.container {
+    width: 936px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 2px solid yellow;
+    justify-content: center;
+    
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+.header-list {
+    display: flex;
+    justify-content: center;
+    gap: 99px;
+}
+
 .header-link:hover {
      
     color:var(--hover);
@@ -30,9 +55,24 @@ ul {
      color:var(--nav) ;
     
 }
+.gallery-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 130px;
+
+}
+.gallery-item {
+ width: 420px;
+}
+.gallery-img {
+    margin-bottom: 62px;
+   padding: 92px 0px;
+}
 .Galery-h {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
+    gap: 160px;
     
   color:var(--caption);
 }
@@ -54,4 +94,7 @@ ul {
 height: 60px;
  background-color: transparent;
  border: 1px solid var(--text);
+ /* padding: 20px 48px 21px 45px; */
+ /* padding: 20px 40px; */
+ margin: 90px auto 0;
  }
