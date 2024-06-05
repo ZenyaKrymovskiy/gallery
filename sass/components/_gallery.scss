@@ -1,0 +1,51 @@
+.gallery-list {
+    @extend %flex;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 64px;
+    row-gap: 130px;
+
+}
+.gallery-list__item {
+ width: 420px;
+}
+
+.galery- {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    gap: 160px;
+    
+  color: getColor("caption");
+}
+.gallery__thumb{
+    width: 420px;
+    height: 280px;
+    margin-bottom: 62px;
+
+    .gallery-list__img {
+        @extend %img;
+       
+    }
+}
+ .Galery-list__title {
+     
+     
+     font-weight: 400;
+     font-size: 30px;
+ }
+ 
+ 
+ .button {
+    @extend %text;
+     font-family: "Playfair Display", serif; 
+  
+     
+
+     width: 165px;
+height: 60px;
+ 
+ @include btn(getColor("text"), transparent,1px solid getColor("text" ));
+ 
+ 
+ margin: 90px auto 0;
+ }

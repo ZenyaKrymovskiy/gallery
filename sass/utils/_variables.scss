@@ -1,0 +1,10 @@
+
+$colors:(
+    "hover": #03A9F4 ,
+    "nav": #7D7D7D ,
+    "caption": #B4AD9E,
+    "text": #626262,
+);
+@function getColor($key){
+    @return map-get($colors , $key)
+}

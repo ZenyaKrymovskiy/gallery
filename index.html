@@ -13,95 +13,117 @@
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./dist/css/style.min.css" />
   </head>
   <body>
     <div class="container">
     <header class="header">
       <nav class="navigation">
-        <ul class="header-list">
-          <li class="header-item">
-            <a href="/" class="header-link">LIFESTYLE</a>
+        <ul class="navigation-list">
+          <li class="navigation-list__item">
+            <a href="/" class="navigation-list__link">LIFESTYLE</a>
           </li>
-          <li class="header-item">
-            <a href="/" class="header-link">PHOTODIARY</a>
+          <li class="navigation-list__item">
+            <a href="/" class="navigation-list__link">PHOTODIARY</a>
           </li>
-          <li class="header-item">
-            <a href="/" class="header-link">MUSIC</a>
+          <li class="navigation-list__item">
+            <a href="/" class="navigation-list__link">MUSIC</a>
           </li>
-          <li class="header-item">
-            <a href="/" class="header-link">TRAVEL</a>
+          <li class="navigation-list__item">
+            <a href="/" class="navigation-list__link">TRAVEL</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="gallery">
       <ul class="gallery-list">
-        <li class="gallery-item">
-          <img src="./images/card1.jpg" alt="girl" class="gallery-img" />
-          <p class="gallery-text">LIFESTYLE</p>
-          <h2 class="gallery-title">More than just a music festival</h2>
-          <p class="gallery-description">
+        <li class="gallery-list__item">
+          <div class="gallery__thumb">
+          <img src="./images/card1.jpg" alt="girl" class="gallery-list__img" />
+        </div>
+          <p class="gallery-list__text">LIFESTYLE</p>
+          <h2 class="gallery-list__title">More than just a music festival</h2>
+          <p class="gallery-list__description">
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea.
           </p>
         </li>
-        <li class="gallery-item">
-          <img src="./images/card2.jpg" alt="tea" class="gallery-img" />
-          <p class="gallery-text">LIFESTYLE</p>
-          <h2 class="gagery-title">Life tastes better with coffee</h2>
-          <p class="Galery-description">
+        <li class="gallery-list__item">
+          <article class="card">
+          <div class="gallery__thumb">
+          <img src="./images/card2.jpg" alt="tea" class="gallery-list__img" />
+        </div>
+          <p class="gallery-list__text">LIFESTYLE</p>
+          <h2 class="gallery-list__title">Life tastes better with coffee</h2>
+          <p class="gallery-description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea.
           </p>
+        </article>
         </li>
-        <li class="gallery-item">
-          <img src="./images/card3.jpg" alt="brslge" class="gallery-img" />
-          <p class="gallery-text">PHOTODIARY</p>
+        <li class="gallery-list__item">
+          <article class="gallery__info">
+            <div class="gallery__thumb">
+          <img src="./images/card3.jpg" alt="brslge" class="gallery-list__img" />
+          <p class="gallery-list__text">PHOTODIARY</p>
           <h2 class="gagery-title">American dream</h2>
-          <p class="gallery-description">
+          <p class="gallery-list__description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea
           </p>
+          </article>
         </li>
-        <li class="gallery-item">
-          <img src="./images/card4.jpg" alt="winter" class="gallery-img" />
-          <p class="gallery-text">PHOTODAIRY</p>
-          <h2 class="gallery-title">A day exploring the Alps</h2>
-          <p class="gallery-description">
+        <li class="gallery-list__item">
+          <article class="card">
+            <div class="gallery__thumb">
+          <img src="./images/card4.jpg" alt="winter" class="gallery-list__img" />
+        </div>
+          <p class="gallery-list__text">PHOTODAIRY</p>
+          <h2 class="gallery-list__title">A day exploring the Alps</h2>
+          <p class="gallery-list__description">
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea
           </p>
+        </article>
         </li>
-        <li class="gallery-item">
-          <img src="./images/card5.jpg" alt="woman" class="gallery-img" />
-          <p class="gallery-text"> LIFESTYLE</p>
-          <h2 class="gallery-title">10 song for running</h2>
-          <p class="gallery-description">
+        <li class="gallery-list__item">
+          <article class="card">
+            <div class="gallery__thumb">
+          <img src="./images/card5.jpg" alt="woman" class="gallery-list__img" />
+        </div>
+          <p class="gallery-list__text"> LIFESTYLE</p>
+          <h2 class="gallery-list__title">10 song for running</h2>
+          <p class="gallery-list__description">
             ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
             veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
             ea.
           </p>
+        </article>
         </li>
         <li class="gallery-item">
-          <img src="./images/card6.jpg" alt="road" class="gallery-img" />
-          <p class="gallery-text">LIFESTYLE</p>
-          <h2 class="gallery-title">winter days</h2>
-          <p class="gallery-description">
+          <article class="card">
+
+            <div class="gallery__thumb">
+          <img src="./images/card6.jpg" alt="road" class="gallery-list__img" />
+        </div>
+          <p class="gallery-list__text">LIFESTYLE</p>
+          <h2 class="gallery-list__title">winter days</h2>
+          <p class="gallery-list__description">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea.
           </p>
+        </article>
         </li>
       </ul>
 

@@ -1,0 +1,23 @@
+.header {
+    @extend %flex;
+    
+}
+.navigation-list {
+    @extend %flex;
+    
+    
+    gap: 99px;
+    &__link {
+
+    
+        color: getColor("nav") ;
+        &__link:hover {
+     
+            color:getColor("caption");
+        }
+   }
+}
+
+
+
+
