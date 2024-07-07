@@ -1,14 +1,22 @@
 .header {
     @extend %flex;
-    
+    padding: 20px 0 15px
 }
 .navigation-list {
     @extend %flex;
-    
+    .toggle-input{
+        display: none;
+    }
     
     gap: 99px;
+    @media(min-width: 768px){
+        padding: 71px 0 92px;
+    }
     &__link {
-
+        font-size: 20px;
+        @media(min-width: 768px){
+         font-size: 14px;
+        }         
     
         color: getColor("nav") ;
         &__link:hover {
